@@ -132,4 +132,5 @@ export default function App() {
 // 1. late select 가 Work / Travel 인지 저장해놨다가 다시 켤때 그대로 이어가기 ?
 // -> whffkdhffjdun
 // 2. Done 만들어서 todo 완료되었으면 done 으로 체크할 수 있도록
+// => 개어루열니아루가이및ㄴ ㅏ아무것도 모르겟어 내일한다 
 // 3. todo 수정가능하게 

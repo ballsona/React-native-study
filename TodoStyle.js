@@ -33,7 +33,7 @@ export const styles = StyleSheet.create({
     marginBottom:15,
     borderRadius: 7,
     alignItems:"center",
-    justifyContent:"flex-start"
+    justifyContent: "flex-start",
   },
   toDoText: {
     color: "white",
