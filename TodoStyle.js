@@ -32,13 +32,28 @@ export const styles = StyleSheet.create({
     paddingVertical:20,
     marginBottom:15,
     borderRadius: 7,
+    justifyContent:"space-between",
+  },
+  toDoContent: {
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  toDoFunction: {
+    flexDirection: "row",
     alignItems:"center",
-    justifyContent: "flex-start",
   },
   toDoText: {
     color: "white",
     fontSize: 15,
     fontWeight: "400",
     paddingHorizontal:15
+  },
+  editBtn: {
+    paddingRight:5
+  },
+  editInput: {
+    backgroundColor: "transparent",
+    paddingHorizontal: 15,
+    
   }
 })
