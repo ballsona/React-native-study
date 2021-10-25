@@ -8,7 +8,7 @@ export const styles = StyleSheet.create({
     },
     header: {
         flexDirection: "row",
-        flex: 1.3,
+        flex: 1.5,
         // backgroundColor: "green",
         justifyContent: "space-between",
         alignItems: "center",
@@ -24,8 +24,11 @@ export const styles = StyleSheet.create({
     },
     body: {
         flexDirection: "column",
-        flex:8,
-        backgroundColor:"purple"
+        flex:10,
+        backgroundColor:"purple",
+    },
+    chattingBody: {
+        backgroundColor:"black"  
     },
     chats: {
         flexDirection: "column-reverse",
@@ -36,7 +39,8 @@ export const styles = StyleSheet.create({
         backgroundColor: "white",
         paddingHorizontal: 10,
         paddingVertical: 10,
-        marginVertical:5
+        marginVertical: 5,
+
     },
     messageBar: {
         flexDirection: "column",
@@ -46,5 +50,8 @@ export const styles = StyleSheet.create({
     messageInput: {
         backgroundColor: "white",
         flex:0.5
+    },
+    giftedChat: {
+        backgroundColor: "black"
     }
 })
