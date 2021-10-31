@@ -3,27 +3,27 @@ const chabotInfo = {
     name: "Chatbot",
     avatar: 'https://placeimg.com/140/140/any'
 }
-const chatbotQuickReplies = {
+const morningQR = {
     type: 'radio', // or 'checkbox',
     keepIt: true,
     values: [
         {
             title: 'Yes',
-            value: 'start'  
+            value: 'morning_YES'  
         },
         {
-            title: 'Yes',
-            value: 'start'
+            title: 'no',
+            value: 'no'
         }
     ],
 }
 
-export const DefaultMessage = [  
+export const morningM = [  
     {
         _id: 0,
         text: 'Good Morning. Do you want to start your day with me?',
         createdAt: new Date(),
-        quickReplies : chatbotQuickReplies,
+        quickReplies : morningQR,
         user: chabotInfo
     }
 ]
@@ -38,6 +38,12 @@ export const AutoMessage = {
     goodMorning: {
         _id: Date.now() + Math.random(),
         text: 'GoodMorning',
+        createdAt: new Date(),
+        user: chabotInfo
+    },
+    dayPlan: {
+         _id: Date.now() + Math.random(),
+        text: 'What are you going to do today?',
         createdAt: new Date(),
         user: chabotInfo
     }

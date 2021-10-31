@@ -1,8 +1,9 @@
 import React, { useState, useCallback, useEffect } from 'react'
 import { StyleSheet, Text, View, TextInput, ScrollView, TouchableOpacity } from 'react-native';
-import Message from './Message';
+import Chat from './Chat';
 import { styles } from './style/AppStyle';
 import { FontAwesome } from '@expo/vector-icons'; 
+import { GiftedChat } from 'react-native-gifted-chat';
 
 export default function App() {
   return (
@@ -16,7 +17,7 @@ export default function App() {
         </View> */}
       </View>
       <View style={styles.body}>
-        <Message />
+        <Chat />
       </View>
     </View>
   );
