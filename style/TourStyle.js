@@ -16,7 +16,7 @@ export const styles = StyleSheet.create({
         paddingBottom:10
     },
     itemAddr: {
-        fontsize: 13,
+        fontSize: 13,
         marginVertical:5
     }
     
